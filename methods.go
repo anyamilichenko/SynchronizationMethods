@@ -171,3 +171,19 @@ func main() {
 	demoOnce()
 	demoCond()
 }
+
+//Результат:
+//1. sync.Mutex
+//Final counter value: 1000
+//2. sync.RWMutex
+//Read a: 42
+//3. Channels
+//Sum: 15
+//4. sync.WaitGroup
+//its string
+//Anna
+//Hello
+//5. sync.Once
+//Initialized
+//6. sync.Cond
+//Received signal
